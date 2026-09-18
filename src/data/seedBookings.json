@@ -1,0 +1,80 @@
+[
+  {
+    "id": "VH-2026-EDI109",
+    "bookingReference": "VH-2026-EDI109",
+    "hotelId": "village-edinburgh",
+    "hotelName": "Village Hotel Edinburgh",
+    "roomId": "room-club",
+    "roomTitle": "Village Club Room",
+    "packageType": "club_perks_bundle",
+    "checkIn": "2026-09-25",
+    "checkOut": "2026-09-27",
+    "nights": 2,
+    "adults": 2,
+    "children": 0,
+    "guestName": "David MacLeod",
+    "guestEmail": "d.macleod@example.co.uk",
+    "anprSafePass": {
+      "vehicleReg": "ED23 HYB",
+      "isWhitelisted": true,
+      "passIssuedAt": "2026-09-14T10:30:00Z",
+      "pcnProtectionGuarantee": true
+    },
+    "selectedAddons": [
+      "anpr_parking",
+      "breakfast_buffet"
+    ],
+    "specialRequests": [
+      "High floor quiet sanctuary requested",
+      "Orange hanger reminder enabled (11 PM)"
+    ],
+    "pricing": {
+      "roomTotal": 230.0,
+      "addonsTotal": 50.0,
+      "memberSavings": 20.0,
+      "grandTotal": 280.0,
+      "vatPortion": 46.67
+    },
+    "status": "confirmed",
+    "createdAt": "2026-09-14T10:30:00Z"
+  },
+  {
+    "id": "VH-2026-CDF441",
+    "bookingReference": "VH-2026-CDF441",
+    "hotelId": "village-cardiff",
+    "hotelName": "Village Hotel Cardiff",
+    "roomId": "room-club",
+    "roomTitle": "Village Club Room",
+    "packageType": "club_perks_bundle",
+    "checkIn": "2026-10-02",
+    "checkOut": "2026-10-04",
+    "nights": 2,
+    "adults": 2,
+    "children": 1,
+    "guestName": "Gareth Evans",
+    "guestEmail": "gareth.evans@example.co.uk",
+    "anprSafePass": {
+      "vehicleReg": "CF21 WLS",
+      "isWhitelisted": true,
+      "passIssuedAt": "2026-09-12T14:15:00Z",
+      "pcnProtectionGuarantee": true
+    },
+    "selectedAddons": [
+      "anpr_parking",
+      "dining_credit"
+    ],
+    "specialRequests": [
+      "Family pool splash hours guide requested",
+      "Travel cot pre-set in room"
+    ],
+    "pricing": {
+      "roomTotal": 240.0,
+      "addonsTotal": 35.0,
+      "memberSavings": 20.0,
+      "grandTotal": 275.0,
+      "vatPortion": 45.83
+    },
+    "status": "confirmed",
+    "createdAt": "2026-09-12T14:15:00Z"
+  }
+]

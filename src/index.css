@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-orange: #FF6A0C;
+    --color-black: #000000;
+    --color-slate: #1A1A1A;
+    --color-blue: #3DB5E6;
+    --color-lime: #A8E000;
+    --color-amber: #F5A623;
+    --color-purple: #8B5CF6;
+    --color-green: #49D67C;
+  }
+
+  body {
+    background-color: #111111;
+    color: #F3F4F6;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom scrollbar for sleek dark look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6A0C;
+}
+
+/* High contrast glass blur */
+.glass-panel {
+  background: rgba(26, 26, 26, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dropdown {
+  background: rgba(22, 22, 22, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1px solid #333333;
+}
